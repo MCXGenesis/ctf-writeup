@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Laporan Rahasia</title>
+    <link rel="stylesheet" href="./stsdyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Portal</h1>
+        <p>Masukkan kode akses yang benar untuk membuka kunci.</p>
+        
+        <div class="form-group">
+            <input type="password" id="kode_akses" placeholder="Kode Akses...">
+            <button id="tombol_buka" onclick="validasiKode()">Buka Kunci</button>
+        </div>
+
+        <div id="hasil_flag" class="hasil"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
